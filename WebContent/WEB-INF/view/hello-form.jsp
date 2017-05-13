@@ -7,8 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>Hello from Spring MVC Demo!</h2>
-<br/>
-<a href="showForm">Welcome to Spring</a>
+<form action="processForm" method="get">
+<input type="text" name="userName" placeHolder="Enter your name!"/>
+<input type="submit"\>
+
+</form>
 </body>
 </html>
