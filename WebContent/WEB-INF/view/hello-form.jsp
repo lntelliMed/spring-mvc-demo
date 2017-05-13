@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="processForm" method="get">
+<form action="processFormVersionTwo" method="get">
 <input type="text" name="userName" placeHolder="Enter your name!"/>
 <input type="submit"\>
 

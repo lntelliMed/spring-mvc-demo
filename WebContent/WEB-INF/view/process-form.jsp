@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>Hello ${param.userName}</h2>
+<h2>User Name:  ${param.userName}</h2>
+<h2>Message:  ${message}</h2>
+
 </body>
 </html>
