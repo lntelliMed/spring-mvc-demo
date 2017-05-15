@@ -9,6 +9,6 @@
 <body>
 <h2>Hello from Spring MVC Demo!</h2>
 <br/>
-<a href="showForm">Welcome to Spring</a>
+<a href="userForm/showForm">Welcome to Spring</a>
 </body>
 </html>
