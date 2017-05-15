@@ -8,5 +8,7 @@
 </head>
 <body>
 Student registation confirmed for : ${student.firstName} ${student.lastName} 
+<br>
+Country:  ${student.country} 
 </body>
 </html>
