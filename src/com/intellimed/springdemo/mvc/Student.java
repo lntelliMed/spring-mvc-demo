@@ -1,13 +1,21 @@
 package com.intellimed.springdemo.mvc;
 
+import java.util.LinkedHashMap;
+
 public class Student {
 	private String firstName;
 	private String lastName;
 	
 	private String country;
 	
+	private LinkedHashMap<String, String> countryOptions;
+	
 	public Student(){
-		
+		countryOptions = new LinkedHashMap<>();
+		countryOptions.put("FR", "France");
+		countryOptions.put("DE", "Germany");
+		countryOptions.put("US", "United States of America");
+
 	}
 
 	public String getFirstName() {
@@ -39,6 +47,15 @@ public class Student {
 		this.country = country;
 	}
 
+	public LinkedHashMap getCountryOptions() {
+		return countryOptions;
+	}
+
+	public void setCountryOptions(LinkedHashMap countryOptions) {
+		this.countryOptions = countryOptions;
+	}
+
+	
 	
 	
 	

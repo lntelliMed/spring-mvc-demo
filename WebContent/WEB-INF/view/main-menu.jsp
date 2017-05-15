@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>Hello from Spring MVC Demo!</h2>
+<h2>Spring MVC Demo - Main Page</h2>
 <br/>
 <a href="hello/showForm">Hello Spring Form</a>
 <br/>
