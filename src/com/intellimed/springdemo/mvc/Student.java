@@ -12,6 +12,8 @@ public class Student {
 	
 	private String favoriteLanguage;
 	
+	private String[] operatingSystems;
+	
 	public Student(){
 		countryOptions = new LinkedHashMap<>();
 		countryOptions.put("FR", "France");
@@ -63,6 +65,14 @@ public class Student {
 
 	public void setFavoriteLanguage(String favoriteLanguage) {
 		this.favoriteLanguage = favoriteLanguage;
+	}
+
+	public String[] getOperatingSystems() {
+		return operatingSystems;
+	}
+
+	public void setOperatingSystems(String[] operatingSystems) {
+		this.operatingSystems = operatingSystems;
 	}
 
 	
