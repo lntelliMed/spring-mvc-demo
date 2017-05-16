@@ -10,5 +10,7 @@
 Student registation confirmed for : ${student.firstName} ${student.lastName} 
 <br>
 Country:  ${student.country} 
+<br>
+Favorite Language:  ${student.favoriteLanguage} 
 </body>
 </html>

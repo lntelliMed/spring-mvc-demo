@@ -6,9 +6,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Student Registration Form</title>
+<style>
+	.form {
+		background-color: aqua;
+	}
+</style>
 </head>
 <body>
-	<form:form action="processForm" modelAttribute="student">
+	<form:form action="processForm" modelAttribute="student" class="form">
 		First Name: <form:input path="firstName"/>
 		<br><br>
 		Last Name: <form:input path="lastName"/>
@@ -27,6 +32,15 @@
 		
 		
 		<br><br>
+		Favorite Language:
+		Java <form:radiobutton path="favoriteLanguage" value="Java"/>
+		C++ <form:radiobutton path="favoriteLanguage" value="C++"/>
+		JavaScript <form:radiobutton path="favoriteLanguage" value="JavaScript"/>
+		
+		
+		
+		<br><br>
+	
 		<input type="submit" value="Submit"/>
 		
 	</form:form>
