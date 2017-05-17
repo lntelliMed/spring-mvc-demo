@@ -12,6 +12,8 @@
 <a href="hello/showForm">Hello Spring Form</a>
 <br/>
 <a href="student/showForm">Student Registration Form</a>
+<br/>
+<a href="customer/showForm">Customer Registration Form</a>
 
 </body>
 </html>

@@ -5,21 +5,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Student Confirmation</title>
+<title>Insert title here</title>
 </head>
 <body>
-Student registration confirmed for : ${student.firstName} ${student.lastName} 
-<br>
-Country:  ${student.country} 
-<br>
-Favorite Language:  ${student.favoriteLanguage} 
-
-<br>
-Operating Systems:  
-<ul>
-	<c:forEach var="temp" items="${student.operatingSystems}">
-		<li >${temp}</li>
-    </c:forEach>
-</ul>
+	Customer registration confirmed for : ${customer.firstName} ${customer.lastName}
 </body>
 </html>
