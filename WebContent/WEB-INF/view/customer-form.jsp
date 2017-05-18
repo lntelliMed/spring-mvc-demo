@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 <style>
-	.red {
+	.error {
 		color: red
 	}
 </style>
@@ -18,7 +18,10 @@
 		Customer First Name: <form:input path="firstName"/>
 		<br>
 		Customer Last Name: <form:input path="lastName"/>
-		<form:errors path="lastName" cssClass="red"/>
+		<form:errors path="lastName" cssClass="error"/>
+		<br>
+		Free Passes: <form:input path="freePasses"/>
+		<form:errors path="freePasses" cssClass="error"/>
 		<br>
 		<input type="submit" value="Submit"/>
 	</form:form>
